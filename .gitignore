@@ -1,21 +1,21 @@
 # IntelliJ IDEA
-.idea/             # IDEA 项目本地配置文件夹，包括工作空间状态、运行配置、代码风格等，一般不提交
-*.iml              # IDEA 模块文件，记录模块依赖、源码路径等，有时团队会提交，有时忽略
+.idea/
+*.iml
 
 # Maven
-target/            # Maven 编译输出目录，包括 class 文件、打包后的 jar/war 文件，可重建，不提交
+target/
 
 # Gradle
-.gradle/           # Gradle 缓存和中间文件目录，包括下载的依赖和编译缓存，不提交
-build/             # Gradle 编译输出目录，存放 class、jar、apk 等，可重建，不提交
+.gradle/
+build/
 
 # Java
-*.class            # Java 编译生成的字节码文件，可由源码重新生成，不提交
-out/               # IDEA 默认的编译输出目录（如果没有使用 Maven/Gradle），编译产物，不提交
+*.class
+out/
 
 # Log
-*.log              # 程序运行或测试时生成的日志文件，本地生成，不提交
+*.log
 
 # OS
-.DS_Store          # macOS 自动生成的文件，存储文件夹视图设置，对代码无用
-Thumbs.db          # Windows 自动生成的缩略图缓存文件，对代码无用
+.DS_Store
+Thumbs.db
